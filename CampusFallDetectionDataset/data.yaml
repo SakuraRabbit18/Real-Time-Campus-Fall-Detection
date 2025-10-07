@@ -1,0 +1,10 @@
+train: ../images/train  # 训练集图片路径
+val: ../images/val      # 验证集图片路径
+test: ../images/test    # 测试集图片路径
+
+# 类别数量
+nc: 2
+
+# 类别名称
+names: ['Standing', 'Fall']
+
