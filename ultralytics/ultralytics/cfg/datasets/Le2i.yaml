@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 2
+names: ['fall', 'upright']
+
+roboflow:
+  workspace: new-workspace-qfcus
+  project: le2i-with-upright-and-fall
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-qfcus/le2i-with-upright-and-fall/dataset/2
